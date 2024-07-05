@@ -1,0 +1,37 @@
+.airport-view{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    flex-grow: 1;
+    border: 2px solid #000000;
+    width: 100%;
+}
+
+.airport-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+table{
+    width: 100%;
+    border: 2px solid grey;
+}
+
+.checkbox{
+    width: 20px;
+}
+th{
+    border: 2px solid grey;
+}
+
+.add-new-button{
+    background-color: black;
+    color: #ffffff;
+    border-radius: 10px;
+    height: 35px;
+
+}
+
+.close-button{
+    align-self: flex-end;
+}

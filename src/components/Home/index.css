@@ -1,0 +1,17 @@
+.background{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.article{
+    padding: 15px;
+    border: 2px solid grey;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.article h1{
+    text-align: center;
+}
